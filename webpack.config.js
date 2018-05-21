@@ -24,6 +24,7 @@ module.exports = {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist')
   },
+  mode: 'production',
   module: {
     rules: [
       {
@@ -46,5 +47,6 @@ module.exports = {
         ]
       }
     ]
-  }
+  },
+  
 };

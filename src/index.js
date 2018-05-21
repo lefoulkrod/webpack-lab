@@ -1,4 +1,4 @@
-import { fromEvent } from 'rxjs/observable/fromEvent';
+import { fromEvent } from 'rxjs';
 import { map } from 'rxjs/operators';
 import './style.css';
 import { logo } from './logo/logo';

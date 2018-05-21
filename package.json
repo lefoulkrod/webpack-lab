@@ -1,11 +1,14 @@
 {
   "name": "webp-lab",
+  "sideEffects": [
+    "*.css"
+  ],
   "private": true,
   "version": "1.0.0",
   "description": "This is my webpack lab where I experiment with all of the features of webpack.",
   "dependencies": {
     "express": "^4.16.3",
-    "rxjs": "^5.5.10"
+    "rxjs": "^6.0.0"
   },
   "devDependencies": {
     "clean-webpack-plugin": "^0.1.19",
