@@ -1,5 +1,14 @@
+@font-face {
+  font-family: 'Roswell';
+  src: url('./fonts/roswell_three_itc-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .output { 
-  color: red 
+  color: red;
+  font-family: 'Roswell';
+  font-size: 2em;
 }
 
 .logo {
