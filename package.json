@@ -22,7 +22,7 @@
     "build": "webpack",
     "watch": "webpack --watch",
     "postinstall": "npm run build",
-    "start": "webpack-dev-server --open"
+    "start": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
