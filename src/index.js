@@ -1,12 +1,9 @@
 import { fromEvent } from 'rxjs/observable/fromEvent';
 import { map } from 'rxjs/operators';
 import './style.css';
-import Logo from './logo.png';
+import { logo } from './logo/logo';
 
-const img = new Image();
-img.classList.add('logo');
-img.src = Logo;
-document.body.appendChild(img);
+document.body.appendChild(logo);
 
 const output = document.createElement('span');
 output.classList.add('output');
