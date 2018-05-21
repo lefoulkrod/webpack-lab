@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "description": "This is my webpack lab where I experiment with all of the features of webpack.",
   "dependencies": {
+    "express": "^4.16.3",
     "rxjs": "^5.5.10"
   },
   "devDependencies": {
@@ -18,7 +19,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "watch": "webpack --watch"
+    "watch": "webpack --watch",
+    "postinstall": "npm run build"
   },
   "repository": {
     "type": "git",
