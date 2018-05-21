@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "description": "This is my webpack lab where I experiment with all of the features of webpack.",
   "dependencies": {
+    "rxjs": "^6.1.0"
   },
   "devDependencies": {
     "webpack-cli": "^2.1.3",
