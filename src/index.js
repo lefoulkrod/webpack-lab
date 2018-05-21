@@ -1,5 +1,6 @@
 import { fromEvent } from 'rxjs/observable/fromEvent';
 import { map } from 'rxjs/operators';
+import './style.css';
 
 const div = document.createElement('div');
 div.innerHTML = 'Hello world.  Click me to get started.';
