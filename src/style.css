@@ -1,1 +1,7 @@
-body { color: red }
+.output { 
+  color: red 
+}
+
+.logo {
+  width: 5rem;
+}
