@@ -9,4 +9,4 @@ span.setValue = function(val) {
 }
 export const output = span;
 
-export let unused = function() { console.log('i do nothing.'); };
+export function unused() { console.log('i do nothing.'); };
