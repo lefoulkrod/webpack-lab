@@ -1,7 +1,7 @@
 export class LazyComponent {
   constructor() {
     this.elemRef = document.createElement('div');
-    this.elemRef.innerHTML = `I'm so lazy.`;
+    this.elemRef.innerHTML = `I'm so lazy!!`;
   }
 
   mount(parentElem) {
