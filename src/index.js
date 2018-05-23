@@ -12,6 +12,7 @@ function replaceNode(tag, node) {
 }
 
 const template = `
+  <h1>Welcome to Webpack Lab</h1>
   <app-logo></app-logo>
   <app-output></app-output>
   <br/>
@@ -36,7 +37,7 @@ const subscribeToClick = (elem, outputComp) => {
 const lazyButton = document.getElementById('lazyButton');
 lazyButton.onclick = e => {
   e.stopPropagation();
-  import(/* webpackChunkName: "LazyComponent" */ './lazy/lazy.component').then(module => {
+  import(/* webpackChunkName: "lazycomponent" */ './lazy/lazy.component').then(module => {
     let lazyComponent = new module.LazyComponent();
     lazyComponent.mount(document.body);
   });

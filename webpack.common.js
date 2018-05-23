@@ -16,8 +16,14 @@ module.exports = {
     }),
     new CleanWebpackPlugin(['dist']),
   ],
+  optimization: {
+    runtimeChunk: true,
+    splitChunks: {
+      chunks: "all"
+    }
+  },
   output: {
-    filename: '[name].bundle.js',
+    filename: '[chunkhash].js',
     path: path.resolve(__dirname, 'dist')
   },
   module: {
